@@ -1,4 +1,4 @@
-import Expenses from './components/Expenses'
+import Expenses from './components/Expenses/Expenses'
 // import './App.css' // Import the external CSS file
 
 const App = () => {
