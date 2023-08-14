@@ -15,10 +15,17 @@ function Expenses(props) {
     date={props.expenses[1].date}
   ></ExpenseItems>
   <ExpenseItems
+    title={props.expenses[2].title}
+    amount={props.expenses[2].amount}
+    date={props.expenses[2].date}
+  ></ExpenseItems>
+  <ExpenseItems
     title={props.expenses[3].title}
     amount={props.expenses[3].amount}
     date={props.expenses[3].date}
-  ></ExpenseItems></Card>
+  ></ExpenseItems>
+  
+  </Card>
   )
 }
 
